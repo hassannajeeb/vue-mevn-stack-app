@@ -27,7 +27,7 @@ app.use(cors())
 app.use('/api', studentAPI)
 
 // Create port
-const port = process.env.PORT || 4000
+const port = process.env.PORT || 3000
 const server = app.listen(port, () => {
   console.log('Connected to port ' + port)
 })
